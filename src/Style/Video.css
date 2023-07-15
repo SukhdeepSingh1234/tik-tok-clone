@@ -1,0 +1,13 @@
+.video{ /* to make the video snap */
+    position: relative;
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;/* make the snap position to start means to make the next snap automatically from start*/
+}
+.adjust{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
