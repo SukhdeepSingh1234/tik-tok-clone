@@ -2,7 +2,9 @@
 import './App.css';
 import Video from './components/Video';
 import React,{ useState,useEffect } from 'react';
-import db from '../src/firebase';
+import db from "./firebase";
+
+
 
 function App() {
 
